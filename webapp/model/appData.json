@@ -1,0 +1,48 @@
+{
+	"appName": "MP Demo Application",
+	"loginTitle": "Please Login",
+	"user": [
+		{
+			"email": "test@gmail.com",
+			"password": "password"
+		}
+	],
+	"employee": [
+		{
+			"empName": "Ram",
+			"empId": "101",
+			"empSalary": 40000,
+			"empMobile": 3232323
+		},
+		{
+			"empName": "Shyan",
+			"empId": "102",
+			"empSalary": 40000,
+			"empMobile": 3232323
+		},
+		{
+			"empName": "Ghan Shyam",
+			"empId": "103",
+			"empSalary": 40000,
+			"empMobile": 3232323
+		},
+		{
+			"empName": "Atul",
+			"empId": "104",
+			"empSalary": 40000,
+			"empMobile": 3232323
+		},
+		{
+			"empName": "Kallu",
+			"empId": "105",
+			"empSalary": 40000,
+			"empMobile": 3232323
+		},
+		{
+			"empName": "Tonku",
+			"empId": "106",
+			"empSalary": 40000,
+			"empMobile": 3232323
+		}
+	]
+}
