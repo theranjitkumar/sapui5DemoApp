@@ -1,12 +1,10 @@
 {
 	"appName": "MP Demo Application",
 	"loginTitle": "Please Login",
-	"user": [
-		{
-			"email": "test@gmail.com",
-			"password": "password"
-		}
-	],
+	"user": {
+		"email": "test@gmail.com",
+		"password": "password"
+	},
 	"employee": [
 		{
 			"empName": "Ram",

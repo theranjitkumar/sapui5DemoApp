@@ -89,6 +89,13 @@
 					"target": [
 						"about"
 					]
+				},
+				{
+					"pattern": "employee",
+					"name": "employee",
+					"target": [
+						"employee"
+					]
 				}
 			],
 			"targets": {
@@ -101,7 +108,11 @@
 				"about": {
 					"viewName": "About",
 					"viewId": "about",
-					"viewLevel": 1,
+					"title": "{i18n>title}"
+				},
+				"employee": {
+					"viewName": "Employee",
+					"viewId": "employee",
 					"title": "{i18n>title}"
 				}
 			}

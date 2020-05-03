@@ -1,15 +1,14 @@
 <mvc:View controllerName="sap.ui.demo.basicTemplate.controller.About" displayBlock="true" 
 	xmlns="sap.m" 
 	xmlns:mvc="sap.ui.core.mvc">
-	<Page id="page" title="{i18n>title}">
+	<Page id="idAbout" title="{i18n>title}">
 		<content>
-			<!-- temp list -->
-			<List noDataText="Drop list items here" id="list0" items="{appData>/employee}" headerText="Employee Details">
+			<!-- <Label text="{/users}"></Label> -->
+			<List noDataText="Drop list items here" id="idlist" items="{/users}" headerText="Users List">
 				<items>
-					<StandardListItem type="Navigation" title="{appData>empName}" description="Id is: {appData>empId}" icon="sap-icon://picture" id="item0"/>
+					<StandardListItem type="Navigation" title="{name}" description="Name is: {email}" icon="sap-icon://picture" id="item0"/>
 				</items>
 			</List>
-			<!-- temp list end -->
 		</content>
 	</Page>
 </mvc:View>
